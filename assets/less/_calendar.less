@@ -1,0 +1,40 @@
+.appoinment_detail{
+	.calendar{
+
+		.fc-toolbar h2{
+			.f(18);
+			.fbold;
+			color: @black2;
+		}
+		.fc-left{
+			.d-flex;
+			.align-items-center;
+		}
+		.fc-button-group{
+			.fc-prev-button,{
+				border-radius: 12px 0px 0px 12px;
+				background-color:@white;
+				border:1px solid fade(#c4c4c4, 50%);
+				padding: 5px 8px;
+				&:hover{
+					background-color:#fafafa;
+				}
+			}
+			.fc-next-button{
+				border-radius: 0px 12px 12px 0px;
+				background-color:@white;
+				border:1px solid fade(#c4c4c4, 50%);
+				padding: 5px 8px;
+				&:hover{
+					background-color:#fafafa;
+				}
+			}
+			.fc-icon{
+				color: #3ECD83;
+			}
+		}
+		.fc-today-button{
+			.dnone;
+		}
+	}
+}

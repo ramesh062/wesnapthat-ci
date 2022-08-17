@@ -1,0 +1,355 @@
+.main_div{
+	padding-top: 100px;
+	padding-left:280px;
+	padding-right:20px;
+	padding-bottom:20px;
+	.d-flex;
+	.justify-content-between;
+	.left_part{
+		width: 370px;
+		height: 100%;
+		.book_link{
+			.common_gradient;
+			.p(20);
+			.radius(5px);
+			.link_heading{
+				.fbold;
+				color: @white;
+			}
+			.link_mid_part{
+				padding:10px 0px;
+				.d-flex;
+				.justify-content-between;
+				.align-items-center;
+				.copy_link{
+					color: @white;
+				}
+				.link_image{
+
+				}
+			}
+			.link_bottom{
+				.f(13);
+				color: fade(@black, 50%);
+			}
+		}
+		.appoinment_upcoming{
+			.mt(15);
+			.common_box{
+				padding:20px 10px;
+				.common_text{
+					.d-flex;
+					.justify-content-between;
+					.text-capitalize;
+					.common_left_text{
+						.fbold;
+						color: @black2;
+					}
+					.common_right_btn{
+						.fbold;
+						color: @black4;
+					}
+				}
+				.next_appoinment{
+					.mt(10);
+					border:1px solid fade(@border_1, 50%);
+				   	.p(20);
+				   	.radius(5px);
+				    list-style-type: none;
+					.appointment_box{
+						.d-flex;
+						.time_date{
+							.f(14);
+							color: @primary;
+							.relative;
+							.text-right;
+							border-right:1px solid fade(#C4C4C4, 50%);
+							width: 100px;
+							.pr(25);
+							.date{
+								.block;
+								.pb(5);
+							}	
+							.time{
+								.fbold;
+							}
+						}
+						.name_turn{
+							width: ~'calc(100% - 100px)';
+							padding-left:20px;
+							.name{
+								.f(20);
+								.fbold;
+								color: @black2;
+								.block;
+							}
+							.turn{
+								.f(12);
+								color: @black4;
+							    margin-top: -3px;
+							    display: block;
+								&.next_color{
+									color: @text_color;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.right_part{
+		width:~' calc(100% - 370px)';
+   		.pl(20);
+		.top_right{
+			.d-flex;
+			.box{
+				.linear_gradient_one;
+				width: ~'calc(100% - 33.33%)';
+				// width: 135px;
+				height: auto;
+				.radius(5px);
+				.mr(10);
+				.pb(20);
+				.relative;
+				padding: 20px;
+    			display: inline-block;
+				&.two{
+					.linear_gradient_two;
+				}
+				&.three{
+					.linear_gradient_three;
+				}
+				.bg_shape{
+					.absolute;
+					top: 10px;
+					left: 0px;
+				}
+				.right_image{
+					.m(-10);
+					.text-right;
+					img{
+
+					}
+				}
+				.middle_text{
+					.f(40);
+					.relative;
+					.fbold;
+					color: @text_color;
+				}
+				.bottom_text{
+					.f(12);
+					.relative;
+					.fbold;
+					color: @black3;
+				}
+			}
+		}
+		.middle_right{
+			.pt(15);
+			.custom_select{
+				select{
+					border:0;
+				}
+			}
+			.graph_image{
+				.p(20);
+				.text-center;
+			}
+		}
+		.bottom_right{
+			.pt(15);
+			.doctor_list{
+				.d-flex;
+				justify-content: space-between;
+				.align-items-center;
+				.doctor_detail{
+					width: ~'calc(100% - 25%)';
+					.p(20);
+					margin-right: 10px;
+					.text-center;
+					.radius(5px);
+					.box-shadow(0px 0px 4px 4px fade(@black,2%));
+					border:1px solid fade(@border_1, 50%);
+					&:last-child{
+						.mr(0);
+					}
+					.doctor_image{
+						.mb(15);
+						img{
+
+						}
+					}
+					.doctor_name{
+						.f(14);
+						.fbold;
+						color: @black2;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media @mobile{
+	.main_div{
+	padding-top: 100px;
+	padding-left:10px;
+	padding-right:10px;
+	.d-flex;
+	.justify-content-between;
+	.flex-wrap;
+	.left_part{
+		width: 100%;
+		height: 100%;
+		.book_link{
+			.link_heading{
+
+			}
+			.link_mid_part{
+				
+				.copy_link{
+					
+				}
+				.link_image{
+
+				}
+			}
+			.link_bottom{
+				
+			}
+		}
+		.appoinment_upcoming{
+			
+			.common_box{
+				
+				.common_text{
+				
+					.common_left_text{
+						
+					}
+					.common_right_btn{
+						
+					}
+				}
+				.next_appoinment{
+					
+					.appointment_box{
+						
+						.time_date{
+							
+							.date{
+								
+							}	
+							.time{
+								
+							}
+						}
+						.name_turn{
+							
+							.name{
+								
+							}
+							.turn{
+								
+								&.next_color{
+									
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.right_part{
+			width:100%;
+	   		.p(10);
+			.top_right{
+				.d-flex;
+				.flex-wrap;
+
+				.box{
+					.mb(20);
+					.linear_gradient_one;
+					width:100%;
+					.mr(0);
+					.relative;
+					padding: 20px;
+	    			display: inline-block;
+					&.two{
+						.linear_gradient_two;
+					}
+					&.three{
+						.linear_gradient_three;
+					}
+					.bg_shape{
+						height: 120px;
+						width: auto;
+						.absolute;
+						top: 0px;
+						left: 0px;
+					}
+					.right_image{
+						.m(-10);
+						.text-right;
+						img{
+
+						}
+					}
+					.middle_text{
+						.f(26);
+					}
+					.bottom_text{
+						
+					}
+				}
+			}
+			.middle_right{
+				.pt(15);
+				.custom_select{
+					select{
+						border:0;
+					}
+				}
+				.graph_image{
+					.p(20);
+					.text-center;
+				}
+			}
+			.bottom_right{
+				.pt(15);
+				.doctor_list{
+					.d-flex;
+					justify-content: space-between;
+					.align-items-center;
+					.flex-wrap;
+					.doctor_detail{
+						width:~'calc(50% - 7px)';	
+						.p(10);
+						.mr(5);
+						.mb(10);
+						&:nth-child(2){
+							.mr(0);
+						}
+						&:nth-child(4){
+							.mr(0);
+						}
+						.doctor_image{
+							.mb(15);
+							img{
+
+							}
+						}
+						.doctor_name{
+							.f(14);
+							.fbold;
+							color: @black2;
+						}
+					}
+				}
+			}
+		}
+}
+}

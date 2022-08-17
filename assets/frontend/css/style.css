@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+/*
+font-family: 'PT Sans', sans-serif;
+*/
+
+body{ padding:0; margin:0; font-size:15px; color:#282828; font-family: 'PT Sans', sans-serif;}
+a, button{outline:none !important; text-decoration:none; box-shadow:none; transition:all .4s ease-in-out;}
+a:hover, a:focus, select:focus, button:focus,.btn:focus,btn.focus { outline:none; text-decoration:none; box-shadow:none;}
+* { margin:0; padding:0;}
+img { border:none; vertical-align:middle; max-width:100%;}
+li{ list-style:none;}
+h1, h2, h3, h4, h5, h6{ outline:none !important;}
+input, select, textarea, button{ outline:none !important; box-shadow:none;}
+input, textarea, select{ /*-moz-appearance: none; -webkit-appearance: none;*/ box-shadow:none !important;}
+
+.container{ width:90%; max-width:1300px; margin:0 auto; padding:0;}
+
+p{ font-weight: 400; font-size: 24px; line-height: 39px; color: #455A64;}
+
+/***********  Top Part  ************/
+header{ width:100%; margin:0; padding:0;}
+
+/** Global Title **/
+h2.title{ margin:0 0 25px 0; padding:0 0 20px 0; font-size:50px; color:#555555; font-weight:700; position:relative; text-transform:uppercase;}
+h2.title small{ display:block; margin:0 0 10px 0; padding:0; font-size:16px; color:#455A64; letter-spacing: 0.2em;}
+h2.title:before{ content:""; width:40px; height:4px; background:#432062; position:absolute; bottom:0; left:0;}
+h2.title.white{ color:#fff;}
+h2.title.white:before{ background:#fff;}
+h2.title.center{ text-align:center;}
+h2.title.center:before{ right:0; margin:auto;}
+h2.title.green:before{ width:30px; background:#296C72;}
+
+/***********  Top Part  ************/
+header{ width:100%; margin:0; padding:50px 0 20px 0; position:absolute; left:0; top:0; z-index:9999;}
+header .navbar-brand{ width:100px; margin:0; padding:0;}
+header .navbar-brand img{ width:100%; transition:all .4s ease-in-out;}
+.switch-button { width: 170px; height: 46px; text-align: center; position: relative; will-change: transform; cursor: pointer; transition: 0.3s ease all; border:1px solid #455A64; border-radius: 10px; display:flex;}
+.switch-button-case{ background: none; flex:1 0 0%; height: 100%; color: #455A64; position: relative; border: none; transition: 0.3s ease all; border-radius: 10px; display:flex; justify-content:center; align-items:center;}
+.switch-button-case img{ margin-right:10px;}
+.switch-button-case:hover { color: #455A64; cursor: pointer; }
+.switch-button-case:focus { outline: none; }
+.switch-button .active-case { color: #fff; background: #455A64; transition: 0.3s ease-out all; border-radius: 8px;}
+
+header.sticky{ padding:15px 0;}
+
+/************* Section ***********/
+section{ padding:0; margin:0;}
+
+/*--- Hero ---*/
+.hero_sec{ padding:200px 0 106px; background:url(../images/hero_bg.png) no-repeat center top; background-size:cover;}
+.hero_sec .detail{ margin:0 -25% 0 0; padding-top:100px;}
+.hero_logo{ margin:0 0 20px;}
+.hero_sec h1{ margin:0 0 30px; padding:0; font-weight: 700; font-size: 90px; text-transform: uppercase; color: #455A64;}
+.hero_sec p{ width: 516px; margin:0 0 54px; padding:0; font-weight: 400; font-size: 26px; line-height: 39px; color: #455A64;}
+.hero_sec figure{ margin:0 -7em 0 -3em; padding:0;}
+.download_info{ width:100%; max-width:424px; display:flex; margin:0; padding:0; gap:25px;}
+.download_info a{ display:inline-block; flex:1 0 0%; background:#fff; border-radius:5px;}
+
+/*--- Welcome ---*/
+.welcome_sec{ padding:200px 0 136px;}
+.welcome_sec .detail{ width:100%; max-width:520px; float:right; margin-bottom:40px;}
+.welcome_sec p{ margin:0; padding:0;}
+
+.booking_sec{ padding:120px 0; background: #FAFAFA; text-align: center;}
+.booking_sec .info{ max-width: 1102px; margin:0 auto 100px; font-weight: 400; font-size: 20px; line-height: 26px; color: #455A64;}
+.booking_sec figure{ margin:0; padding:0;}
+
+/*--- Summary ---*/
+.summary_sec{ padding:200px 0 40px; background:url(../images/summary_bg.jpg) no-repeat center top; background-size:cover;}
+.summary_sec .detail{ max-width:516px; margin-bottom:40px;}
+.summary_sec .sum_logo{ margin:0 0 10px;}
+.summary_sec h2{ margin:0 0 10px; padding:0; font-weight: 700; font-size: 90px; text-transform: uppercase; color: #555555;}
+.summary_sec p{ margin:0;}
+.summary_sec figure{ margin:0;}
+
+/** Doctor Sec **/
+.doctor_sec{ margin:0; padding:170px 0 120px 0; background:#FDFBFF;}
+.doctor_sec.manage{ background:#fff; padding:150px 0 80px 0;}
+.doctor_sec figure{ margin:0 0 10px;}
+
+/** Download Sec **/
+.downalod_sec{ margin:0; padding:0; background:url(../images/download_bg.jpg) center center no-repeat; background-size:cover;}
+.downalod_sec.green{ background:url(../images/download_bg_g.jpg) center center no-repeat; background-size:cover;}
+.downalod_sec h2.title{ text-transform:inherit; margin-bottom:70px;}
+.downalod_sec figure{ margin:0; padding:40px 0 0 0;}
+.downalod_sec a{ margin-right:20px; display:inline-block; filter: brightness(0) invert(1);}
+
+/************* Footer ***********/
+footer{ padding:70px 0 100px 0; margin:0;}
+footer figure{ margin:0 0 40px 0; padding:0;}
+footer p{ margin:0; padding:0; font-size:16px; color:#888888; line-height:29px; max-width:440px;}
+
+ul.add_info{ margin:0 0 70px 0; padding:0;}
+ul.add_info li{ margin:0 90px 0 0; padding:0 100px 0 0; display:inline-block; border-right: 1px solid #D3D3D3; line-height:50px;}
+ul.add_info li i{ width:50px; height:50px; margin:0 20px 0 0; padding:0; background:#F9F9F9; text-align:center; border-radius: 10px; float:left; display:flex; justify-content:center; align-items:center;}
+ul.add_info li:last-child{ margin:0; padding:0; border:none;}
+ul.add_info li a{ margin:0; padding:0; font-size:16px; color:#25353D;}
+ul.add_info li a:hover{ color:#296C72;}
+
+ul.ft_social{ margin:0; padding:0;}
+ul.ft_social li{ margin:0 15px 0 0; padding:0; display:inline-block;}
+ul.ft_social li a{ margin:0; padding:0; display:inline-block; width:50px; height:50px; border:1px solid #455A64; line-height:48px; text-align:center; font-size:20px; color:#455A64; border-radius:50%;}
+ul.ft_social li a:hover{ background:#455A64; color:#fff;}
+ul.ft_social li a .fa:before{ line-height:50px;}
+
+/** Copyright **/
+.copyright{ margin:0; padding:30px 0; background:#F4F4F4; text-align:center; font-size:20px; color:#C1C1C1;}
+.copyright a{ color:#C1C1C1;}
+.copyright a:hover{ color:#296C72;}

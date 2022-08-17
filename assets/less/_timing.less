@@ -1,0 +1,70 @@
+.doctor_appo_detail{
+	padding-left:520px;
+	.flex-wrap;
+	.timing_part{
+		width: 100%;
+		.time_heading{
+			.fbold;
+			color: @black2;
+		}
+		.time_sub_heading{
+			.pt(10);
+			.f(12);
+			color: @black4;
+		}
+	}
+	.time_selection{
+		.d-flex;
+		.align-items-center;
+		.pt(20);
+		.custom_timing{
+			.pr(30);
+			.select_time{
+				padding:5px 10px;
+				border:1px solid #c4c4c4;
+				.radius(5px);
+				color: @black2;
+				.f(14);
+				.fbold;
+			}
+		}
+		.add_more{
+			width: 24px;
+			height: auto;
+			border:1px solid @black4;
+			span{
+				width: 100%;
+				.text-center;
+				color: @black4;
+			}
+		}
+	}
+}
+
+@media @mobile{
+	.doctor_appo_detail{
+		padding-left:20px;
+		padding-right:20px;
+		.timing_part{
+			.time_heading{
+			}
+			.time_sub_heading{
+			}
+		}
+		.time_selection{
+			.pt(20);
+			.custom_timing{
+				.pr(20);
+				.select_time{
+					
+				}
+			}
+			.add_more{
+				
+				span{
+					
+				}
+			}
+		}
+	}
+}

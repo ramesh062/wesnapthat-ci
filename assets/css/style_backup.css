@@ -1,0 +1,2115 @@
+.common_gradient {
+  background: #14afbd;
+  background: linear-gradient(90deg, #14afbd 0%, #3ecd83 100%);
+}
+.linear_gradient_one {
+  background: #eefcef;
+  background: linear-gradient(90deg, #eefcef 0%, #daf4dc 100%);
+}
+.linear_gradient_two {
+  background: #cdd6ef;
+  background: linear-gradient(90deg, #cdd6ef 0%, #94a5d2 100%);
+}
+.linear_gradient_three {
+  background: #e5f5fa;
+  background: linear-gradient(90deg, #e5f5fa 0%, #c4e8f3 100%);
+}
+.fregular {
+  font-weight: 400;
+}
+.fbold {
+  font-weight: 700;
+}
+.fsbold {
+  font-weight: 600;
+}
+.dnone {
+  display: none;
+}
+.block {
+  display: block;
+}
+.iblock {
+  display: inline-block;
+}
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
+.text-capitalize {
+  text-transform: capitalize;
+}
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}
+.fixed {
+  position: fixed;
+}
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+ul li {
+  margin: 0px;
+  padding: 0px;
+}
+span {
+  display: inline-block;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+p:last-child {
+  margin: 0px;
+}
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+a img {
+  border: 0;
+  vertical-align: middle;
+}
+:focus {
+  outline: 0;
+}
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+.d-flex {
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+.d-inline-flex {
+  display: -ms-inline-flexbox !important;
+  display: inline-flex !important;
+}
+.flex-row {
+  flex-direction: row !important;
+}
+.flex-column {
+  flex-direction: column !important;
+}
+.flex-row-reverse {
+  flex-direction: row-reverse !important;
+}
+.flex-column-reverse {
+  flex-direction: column-reverse !important;
+}
+.flex-wrap {
+  flex-wrap: wrap !important;
+}
+.flex-nowrap {
+  flex-wrap: nowrap !important;
+}
+.flex-wrap-reverse {
+  flex-wrap: wrap-reverse !important;
+}
+.flex-fill {
+  flex: 1 1 auto !important;
+}
+.flex-grow-0 {
+  flex-grow: 0 !important;
+}
+.flex-grow-1 {
+  flex-grow: 1 !important;
+}
+.flex-shrink-0 {
+  flex-shrink: 0 !important;
+}
+.flex-shrink-1 {
+  flex-shrink: 1 !important;
+}
+.justify-content-start {
+  justify-content: flex-start !important;
+}
+.justify-content-end {
+  justify-content: flex-end !important;
+}
+.justify-content-center {
+  justify-content: center !important;
+}
+.justify-content-between {
+  justify-content: space-between !important;
+}
+.justify-content-around {
+  justify-content: space-around !important;
+}
+.align-items-start {
+  align-items: flex-start !important;
+}
+.align-items-end {
+  align-items: flex-end !important;
+}
+.align-items-center {
+  align-items: center !important;
+}
+.align-items-baseline {
+  align-items: baseline !important;
+}
+.align-items-stretch {
+  align-items: stretch !important;
+}
+.align-content-start {
+  align-content: flex-start !important;
+}
+.align-content-end {
+  align-content: flex-end !important;
+}
+.align-content-center {
+  align-content: center !important;
+}
+.align-content-between {
+  align-content: space-between !important;
+}
+.align-content-around {
+  align-content: space-around !important;
+}
+.align-content-stretch {
+  align-content: stretch !important;
+}
+.align-self-auto {
+  align-self: auto !important;
+}
+.align-self-start {
+  align-self: flex-start !important;
+}
+.align-self-end {
+  align-self: flex-end !important;
+}
+.align-self-center {
+  align-self: center !important;
+}
+.align-self-baseline {
+  align-self: baseline !important;
+}
+.align-self-stretch {
+  align-self: stretch !important;
+}
+.order-first {
+  -ms-flex-order: -1;
+  order: -1;
+}
+.order-last {
+  -ms-flex-order: 13;
+  order: 13;
+}
+.order-0 {
+  -ms-flex-order: 0;
+  order: 0;
+}
+.order-1 {
+  -ms-flex-order: 1;
+  order: 1;
+}
+.order-2 {
+  -ms-flex-order: 2;
+  order: 2;
+}
+.order-3 {
+  -ms-flex-order: 3;
+  order: 3;
+}
+.order-4 {
+  -ms-flex-order: 4;
+  order: 4;
+}
+.order-5 {
+  -ms-flex-order: 5;
+  order: 5;
+}
+.order-6 {
+  -ms-flex-order: 6;
+  order: 6;
+}
+.order-7 {
+  -ms-flex-order: 7;
+  order: 7;
+}
+.order-8 {
+  -ms-flex-order: 8;
+  order: 8;
+}
+.order-9 {
+  -ms-flex-order: 9;
+  order: 9;
+}
+.order-10 {
+  -ms-flex-order: 10;
+  order: 10;
+}
+.order-11 {
+  -ms-flex-order: 11;
+  order: 11;
+}
+.order-12 {
+  -ms-flex-order: 12;
+  order: 12;
+}
+.offset-1 {
+  margin-left: 8.333333%;
+}
+.offset-2 {
+  margin-left: 16.666667%;
+}
+.offset-3 {
+  margin-left: 25%;
+}
+.offset-4 {
+  margin-left: 33.333333%;
+}
+.offset-5 {
+  margin-left: 41.666667%;
+}
+.offset-6 {
+  margin-left: 50%;
+}
+.offset-7 {
+  margin-left: 58.333333%;
+}
+.offset-8 {
+  margin-left: 66.666667%;
+}
+.offset-9 {
+  margin-left: 75%;
+}
+.offset-10 {
+  margin-left: 83.333333%;
+}
+.offset-11 {
+  margin-left: 91.666667%;
+}
+body {
+  font-size: 15px;
+  padding: 0px;
+  font-family: 'Open Sans', sans-serif;
+  color: #000000;
+  line-height: 1.5;
+  font-weight: 400;
+}
+.text_wrap {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.backimgstyle {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.m_0 {
+  margin: 0px auto;
+}
+header {
+  width: 100%;
+}
+header .header_link {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  padding: 0px 10px;
+  z-index: 99;
+  -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+  display: -ms-flexbox !important;
+  display: flex !important;
+  align-items: center !important;
+}
+header .header_link .menu_icon {
+  padding: 20px;
+  margin-right: 10px;
+}
+header .header_link .logo_link {
+  padding: 20px;
+  padding-left: 0px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #778cfd;
+}
+header .menu_option {
+  width: 260px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 76px;
+  background-color: #37d1c4;
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: column;
+  overflow-y: scroll;
+}
+header .menu_option .menu_link {
+  list-style-type: none;
+  padding-right: 0px;
+  padding-bottom: 40px;
+}
+header .menu_option .menu_link li .menu_name {
+  padding: 20px;
+  border-bottom: 1px solid rgba(20, 175, 189, 0.5);
+  display: block;
+}
+header .menu_option .menu_link li .menu_name.active {
+  background-color: #2dc2b5;
+}
+header .menu_option .menu_link li .menu_name img {
+  margin-right: 30px;
+}
+header .menu_option .menu_link li .menu_name span {
+  font-weight: 700;
+  color: #ffffff;
+}
+header .menu_option .menu_link li .sub_menu {
+  list-style-type: none;
+}
+header .menu_option .menu_link li .sub_menu .sub_menu_link {
+  color: #ffffff;
+  padding: 20px;
+  border-bottom: 1px solid rgba(20, 175, 189, 0.5);
+}
+header .common_bottom {
+  background-color: #14afbd;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+header .common_bottom span {
+  margin-top: 10px;
+  font-weight: 700;
+  color: #ffffff;
+  padding-left: 30px;
+}
+header .common_bottom .common_part {
+  display: -ms-flexbox !important;
+  display: flex !important;
+  align-items: center !important;
+  padding-left: 30px;
+}
+header .common_bottom .common_part span {
+  padding-left: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #455a64;
+}
+header .common_bottom .bottom_link {
+  padding: 0px 25px;
+  padding-bottom: 22px;
+  color: #ffffff;
+  background-color: #37d1c4;
+}
+header .common_bottom .bottom_link .version {
+  font-size: 13px;
+  font-weight: 700;
+}
+header .common_bottom .bottom_link .terms_policy .terms {
+  color: #ffffff;
+  font-size: 12px;
+}
+header .common_bottom .bottom_link .terms_policy .policy {
+  margin-left: 3px;
+  position: relative;
+}
+header .common_bottom .bottom_link .terms_policy .policy:before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: -3px;
+  background-color: #14afbd;
+  height: 17px;
+  width: 1px;
+}
+header .sub_menu_option {
+  width: 260px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 260px;
+  padding-top: 76px;
+  background-color: #ffffff;
+}
+header .sub_menu_option .menu_link {
+  list-style-type: none;
+}
+header .sub_menu_option .menu_link .menu_name {
+  padding: 10px 30px;
+  border-bottom: 1px solid rgba(224, 224, 224, 0.5);
+  width: 100%;
+}
+header .sub_menu_option .menu_link .menu_name.active {
+  background-color: #FAFAFA;
+}
+header .sub_menu_option .menu_link .menu_name .name {
+  font-size: 16px;
+  font-weight: 700;
+  color: #455a64;
+  display: block;
+}
+header .sub_menu_option .menu_link .menu_name .name.next_color {
+  color: #778cfd;
+}
+header .sub_menu_option .menu_link .menu_name .turn {
+  font-size: 12px;
+  color: #a1a1a1;
+  margin-top: -3px;
+  display: block;
+}
+@media only screen and (max-width: 767px) {
+  header .header_link .menu_icon {
+    padding: 20px;
+    margin-right: 10px;
+  }
+  header .header_link .logo_link {
+    padding: 20px;
+    padding-left: 0px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #778cfd;
+  }
+  header .menu_option {
+    display: none;
+  }
+}
+.common_box {
+  padding: 20px;
+  -webkit-box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.02);
+  -moz-box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.02);
+  box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.02);
+}
+.common_text {
+  display: -ms-flexbox !important;
+  display: flex !important;
+  justify-content: space-between !important;
+  padding-bottom: 15px;
+  text-transform: capitalize;
+}
+.common_text .common_left_text {
+  font-weight: 700;
+  color: #455a64;
+}
+.common_text .common_right_btn {
+  font-weight: 700;
+  color: #a1a1a1;
+}
+.custom_input_main .custom_input_box {
+  margin-bottom: 10px;
+}
+.custom_input_main .custom_input_box .input_box {
+  border: 1px solid #C4C4C4;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  padding: 12px 20px;
+}
+.custom_input_main .custom_input_box .input_box .input_icon {
+  margin-right: 22px;
+}
+.custom_input_main .custom_input_box .input_box .input_icon img {
+  width: 18px;
+  height: 18px;
+}
+.custom_input_main .custom_input_box .input_box input {
+  border: 0;
+  caret-color: #778cfd;
+}
+::-webkit-input-placeholder {
+  /* Edge */
+  color: #A1A1A1;
+}
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #A1A1A1;
+}
+::placeholder {
+  color: #A1A1A1;
+}
+.w_full {
+  width: 100%;
+}
+.right_space {
+  margin-right: 20px !important;
+}
+.login_form {
+  height: 100vh;
+  width: 100vw;
+}
+.background_image {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.background_image:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(55, 209, 196, 0.5);
+}
+.background_image .login {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 450px;
+}
+.background_image .login .login_details {
+  background-color: white;
+  width: 100%;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+  padding: 30px 50px;
+}
+.background_image .login .login_details .heading_text {
+  font-size: 24px;
+  font-weight: 700;
+  color: #778cfd;
+  text-align: center;
+}
+.background_image .login .login_details .sub_heading_text {
+  padding-top: 10px;
+  padding-bottom: 35px;
+  font-size: 14px;
+  color: #263238;
+  text-align: center;
+}
+.background_image .login .login_details .custom_input_main .custom_input_box {
+  margin-bottom: 10px;
+}
+.background_image .login .login_details .custom_input_main .custom_input_box .input_box {
+  border: 1px solid #C4C4C4;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  padding: 16px 20px;
+}
+.background_image .login .login_details .custom_input_main .custom_input_box .input_box .input_icon {
+  margin-right: 22px;
+}
+.background_image .login .login_details .custom_input_main .custom_input_box .input_box .input_icon img {
+  width: 18px;
+  height: auto;
+}
+.background_image .login .login_details .custom_input_main .custom_input_box .input_box input {
+  border: 0;
+  caret-color: #778cfd;
+}
+.background_image .login .login_details .device_remember {
+  display: -ms-flexbox !important;
+  display: flex !important;
+  align-items: center !important;
+  padding-top: 5px;
+  margin-left: 20px;
+}
+.background_image .login .login_details .device_remember .square_box {
+  height: 20px;
+  width: 20px;
+  background-color: #DDEAFB;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  border-radius: 2px;
+}
+.background_image .login .login_details .device_remember .sub_text {
+  margin-left: 25px;
+  color: #455a64;
+}
+.background_image .login .login_details .common_button {
+  padding: 15px 150px;
+  background-color: #778cfd;
+  margin-top: 25px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+}
+.background_image .login .login_details .common_button span {
+  color: #ffffff;
+  text-align: center;
+}
+.background_image .login .login_details .forgot_pass {
+  width: 100%;
+  padding-top: 30px;
+  text-align: center;
+  color: #455a64;
+}
+.background_image .login .common_bottom {
+  padding-top: 50px;
+  text-align: center;
+}
+.background_image .login .common_bottom span {
+  font-weight: 700;
+  color: #ffffff;
+}
+.background_image .login .common_bottom .common_part {
+  padding-top: 10px;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+.background_image .login .common_bottom .common_part img {
+  margin-right: 10px;
+}
+.background_image .login .common_bottom .common_part span {
+  font-size: 16px;
+  font-weight: 700;
+  color: #455a64;
+}
+@media only screen and (max-width: 767px) {
+  .background_image {
+    position: relative;
+  }
+  .background_image:before {
+    background-color: rgba(55, 209, 196, 0.2);
+  }
+  .background_image .login {
+    width: 300px;
+  }
+  .background_image .login .login_details {
+    padding: 30px 30px;
+  }
+  .background_image .login .login_details .heading_text {
+    font-size: 18px;
+  }
+  .background_image .login .login_details .sub_heading_text {
+    padding-bottom: 20px;
+    font-size: 14px;
+  }
+  .background_image .login .login_details .custom_input_main .custom_input_box {
+    margin-bottom: 10px;
+  }
+  .background_image .login .login_details .custom_input_main .custom_input_box .input_box {
+    padding: 12px 15px;
+  }
+  .background_image .login .login_details .custom_input_main .custom_input_box .input_box .input_icon {
+    margin-right: 22px;
+  }
+  .background_image .login .login_details .custom_input_main .custom_input_box .input_box .input_icon img {
+    width: 18px;
+    height: auto;
+  }
+  .background_image .login .login_details .custom_input_main .custom_input_box .input_box input {
+    border: 0;
+    caret-color: #778cfd;
+  }
+  .background_image .login .login_details .device_remember {
+    margin-left: 0px;
+  }
+  .background_image .login .login_details .device_remember .square_box {
+    height: 15px;
+    width: 15px;
+  }
+  .background_image .login .login_details .common_button {
+    padding: 15px 100px;
+  }
+  .background_image .login .login_details .forgot_pass {
+    padding-top: 15px;
+  }
+  .background_image .login .common_bottom {
+    padding-top: 30px;
+  }
+  .background_image .login .common_bottom span {
+    font-size: 13px;
+  }
+}
+.background_image_two {
+  height: 100%;
+  width: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0px;
+  overflow-y: auto;
+}
+.background_image_two .login {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 450px;
+  margin: 80px 0px;
+  -webkit-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.2);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  -ms-border-radius: 10;
+  border-radius: 10;
+}
+.background_image_two .login .login_details {
+  background-color: white;
+  width: 100%;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+  padding: 30px 50px;
+}
+.background_image_two .login .login_details .heading_text {
+  font-size: 24px;
+  font-weight: 700;
+  color: #778cfd;
+  text-align: center;
+}
+.background_image_two .login .login_details .sub_heading_text {
+  padding-top: 10px;
+  padding-bottom: 35px;
+  font-size: 14px;
+  color: #263238;
+  text-align: center;
+}
+.background_image_two .login .login_details .custom_input_main .custom_input_box {
+  margin-bottom: 10px;
+}
+.background_image_two .login .login_details .custom_input_main .custom_input_box .input_box {
+  border: 1px solid #C4C4C4;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  padding: 16px 20px;
+}
+.background_image_two .login .login_details .custom_input_main .custom_input_box .input_box .input_icon {
+  margin-right: 22px;
+}
+.background_image_two .login .login_details .custom_input_main .custom_input_box .input_box .input_icon img {
+  width: 18px;
+  height: auto;
+}
+.background_image_two .login .login_details .custom_input_main .custom_input_box .input_box input {
+  border: 0;
+  caret-color: #778cfd;
+}
+.background_image_two .login .login_details .device_remember {
+  display: -ms-flexbox !important;
+  display: flex !important;
+  align-items: center !important;
+  padding-top: 5px;
+  margin-left: 20px;
+}
+.background_image_two .login .login_details .device_remember .square_box {
+  height: 20px;
+  width: 20px;
+  background-color: #DDEAFB;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  border-radius: 2px;
+}
+.background_image_two .login .login_details .device_remember .sub_text {
+  margin-left: 25px;
+  color: #455a64;
+}
+.background_image_two .login .login_details .common_button {
+  padding: 15px 150px;
+  background-color: #778cfd;
+  margin-top: 25px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+}
+.background_image_two .login .login_details .common_button span {
+  color: #ffffff;
+  text-align: center;
+}
+.background_image_two .login .login_details .forgot_pass {
+  width: 100%;
+  padding-top: 30px;
+  text-align: center;
+  color: #455a64;
+}
+.background_image_two .login .common_bottom {
+  padding-top: 50px;
+  text-align: center;
+}
+.background_image_two .login .common_bottom .color_change {
+  color: #a1a1a1;
+}
+.background_image_two .login .common_bottom span {
+  font-weight: 700;
+  color: #ffffff;
+}
+.background_image_two .login .common_bottom .common_part {
+  padding-top: 10px;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+.background_image_two .login .common_bottom .common_part img {
+  margin-right: 10px;
+}
+.background_image_two .login .common_bottom .common_part span {
+  font-size: 16px;
+  font-weight: 700;
+  color: #455a64;
+}
+@media only screen and (max-width: 767px) {
+  .background_image_two {
+    position: relative;
+  }
+  .background_image_two .login {
+    width: 300px;
+    margin-top: 70px;
+    -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  .background_image_two .login .login_details {
+    padding: 30px 30px;
+  }
+  .background_image_two .login .login_details .heading_text {
+    font-size: 18px;
+  }
+  .background_image_two .login .login_details .sub_heading_text {
+    padding-bottom: 20px;
+    font-size: 14px;
+  }
+  .background_image_two .login .login_details .custom_input_main .custom_input_box {
+    margin-bottom: 10px;
+  }
+  .background_image_two .login .login_details .custom_input_main .custom_input_box .input_box {
+    padding: 12px 15px;
+  }
+  .background_image_two .login .login_details .custom_input_main .custom_input_box .input_box .input_icon {
+    margin-right: 12px;
+  }
+  .background_image_two .login .login_details .custom_input_main .custom_input_box .input_box .input_icon img {
+    width: 18px;
+    height: 18px;
+  }
+  .background_image_two .login .login_details .custom_input_main .custom_input_box .input_box input {
+    border: 0;
+    caret-color: #778cfd;
+  }
+  .background_image_two .login .login_details .device_remember {
+    margin-left: 0px;
+  }
+  .background_image_two .login .login_details .device_remember .square_box {
+    height: 15px;
+    width: 15px;
+  }
+  .background_image_two .login .login_details .common_button {
+    padding: 15px 100px;
+  }
+  .background_image_two .login .login_details .forgot_pass {
+    padding-top: 15px;
+  }
+  .background_image_two .login .common_bottom {
+    padding-top: 30px;
+  }
+  .background_image_two .login .common_bottom span {
+    font-size: 13px;
+  }
+}
+.main_div {
+  padding-top: 100px;
+  padding-left: 280px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  justify-content: space-between !important;
+}
+.main_div .left_part {
+  width: 370px;
+  height: 100%;
+}
+.main_div .left_part .book_link {
+  background: #14afbd;
+  background: linear-gradient(90deg, #14afbd 0%, #3ecd83 100%);
+  padding: 20px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+}
+.main_div .left_part .book_link .link_heading {
+  font-weight: 700;
+  color: #ffffff;
+}
+.main_div .left_part .book_link .link_mid_part {
+  padding: 10px 0px;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+}
+.main_div .left_part .book_link .link_mid_part .copy_link {
+  color: #ffffff;
+}
+.main_div .left_part .book_link .link_bottom {
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.main_div .left_part .appoinment_upcoming {
+  margin-top: 15px;
+}
+.main_div .left_part .appoinment_upcoming .common_box {
+  padding: 20px 10px;
+}
+.main_div .left_part .appoinment_upcoming .common_box .common_text {
+  display: -ms-flexbox !important;
+  display: flex !important;
+  justify-content: space-between !important;
+  text-transform: capitalize;
+}
+.main_div .left_part .appoinment_upcoming .common_box .common_text .common_left_text {
+  font-weight: 700;
+  color: #455a64;
+}
+.main_div .left_part .appoinment_upcoming .common_box .common_text .common_right_btn {
+  font-weight: 700;
+  color: #a1a1a1;
+}
+.main_div .left_part .appoinment_upcoming .common_box .next_appoinment {
+  margin-top: 10px;
+  border: 1px solid rgba(235, 235, 235, 0.5);
+  padding: 20px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  list-style-type: none;
+}
+.main_div .left_part .appoinment_upcoming .common_box .next_appoinment .appointment_box {
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+.main_div .left_part .appoinment_upcoming .common_box .next_appoinment .appointment_box .time_date {
+  font-size: 14px;
+  color: #778cfd;
+  position: relative;
+  text-align: right;
+  border-right: 1px solid rgba(196, 196, 196, 0.5);
+  width: 100px;
+  padding-right: 25px;
+}
+.main_div .left_part .appoinment_upcoming .common_box .next_appoinment .appointment_box .time_date .date {
+  display: block;
+  padding-bottom: 5px;
+}
+.main_div .left_part .appoinment_upcoming .common_box .next_appoinment .appointment_box .time_date .time {
+  font-weight: 700;
+}
+.main_div .left_part .appoinment_upcoming .common_box .next_appoinment .appointment_box .name_turn {
+  width: calc(100% - 100px);
+  padding-left: 20px;
+}
+.main_div .left_part .appoinment_upcoming .common_box .next_appoinment .appointment_box .name_turn .name {
+  font-size: 20px;
+  font-weight: 700;
+  color: #455a64;
+  display: block;
+}
+.main_div .left_part .appoinment_upcoming .common_box .next_appoinment .appointment_box .name_turn .turn {
+  font-size: 12px;
+  color: #a1a1a1;
+  margin-top: -3px;
+  display: block;
+}
+.main_div .left_part .appoinment_upcoming .common_box .next_appoinment .appointment_box .name_turn .turn.next_color {
+  color: #14afbd;
+}
+.main_div .right_part {
+  width:  calc(100% - 370px);
+  padding-left: 20px;
+}
+.main_div .right_part .top_right {
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+.main_div .right_part .top_right .box {
+  background: #eefcef;
+  background: linear-gradient(90deg, #eefcef 0%, #daf4dc 100%);
+  width: calc(100% - 33.33%);
+  height: auto;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  margin-right: 10px;
+  padding-bottom: 20px;
+  position: relative;
+  padding: 20px;
+  display: inline-block;
+}
+.main_div .right_part .top_right .box.two {
+  background: #cdd6ef;
+  background: linear-gradient(90deg, #cdd6ef 0%, #94a5d2 100%);
+}
+.main_div .right_part .top_right .box.three {
+  background: #e5f5fa;
+  background: linear-gradient(90deg, #e5f5fa 0%, #c4e8f3 100%);
+}
+.main_div .right_part .top_right .box .bg_shape {
+  position: absolute;
+  top: 10px;
+  left: 0px;
+}
+.main_div .right_part .top_right .box .right_image {
+  margin: -10px;
+  text-align: right;
+}
+.main_div .right_part .top_right .box .middle_text {
+  font-size: 40px;
+  position: relative;
+  font-weight: 700;
+  color: #14afbd;
+}
+.main_div .right_part .top_right .box .bottom_text {
+  font-size: 12px;
+  position: relative;
+  font-weight: 700;
+  color: #525252;
+}
+.main_div .right_part .middle_right {
+  padding-top: 15px;
+}
+.main_div .right_part .middle_right .custom_select select {
+  border: 0;
+}
+.main_div .right_part .middle_right .graph_image {
+  padding: 20px;
+  text-align: center;
+}
+.main_div .right_part .bottom_right {
+  padding-top: 15px;
+}
+.main_div .right_part .bottom_right .doctor_list {
+  display: -ms-flexbox !important;
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center !important;
+}
+.main_div .right_part .bottom_right .doctor_list .doctor_detail {
+  width: calc(100% - 25%);
+  padding: 20px;
+  margin-right: 10px;
+  text-align: center;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.02);
+  -moz-box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.02);
+  box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.02);
+  border: 1px solid rgba(235, 235, 235, 0.5);
+}
+.main_div .right_part .bottom_right .doctor_list .doctor_detail:last-child {
+  margin-right: 0px;
+}
+.main_div .right_part .bottom_right .doctor_list .doctor_detail .doctor_image {
+  margin-bottom: 15px;
+}
+.main_div .right_part .bottom_right .doctor_list .doctor_detail .doctor_name {
+  font-size: 14px;
+  font-weight: 700;
+  color: #455a64;
+}
+@media only screen and (max-width: 767px) {
+  .main_div {
+    padding-top: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    flex-wrap: wrap !important;
+  }
+  .main_div .left_part {
+    width: 100%;
+    height: 100%;
+  }
+  .main_div .right_part {
+    width: 100%;
+    padding: 10px;
+  }
+  .main_div .right_part .top_right {
+    display: -ms-flexbox !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+  }
+  .main_div .right_part .top_right .box {
+    margin-bottom: 20px;
+    background: #eefcef;
+    background: linear-gradient(90deg, #eefcef 0%, #daf4dc 100%);
+    width: 100%;
+    margin-right: 0px;
+    position: relative;
+    padding: 20px;
+    display: inline-block;
+  }
+  .main_div .right_part .top_right .box.two {
+    background: #cdd6ef;
+    background: linear-gradient(90deg, #cdd6ef 0%, #94a5d2 100%);
+  }
+  .main_div .right_part .top_right .box.three {
+    background: #e5f5fa;
+    background: linear-gradient(90deg, #e5f5fa 0%, #c4e8f3 100%);
+  }
+  .main_div .right_part .top_right .box .bg_shape {
+    height: 120px;
+    width: auto;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+  .main_div .right_part .top_right .box .right_image {
+    margin: -10px;
+    text-align: right;
+  }
+  .main_div .right_part .top_right .box .middle_text {
+    font-size: 26px;
+  }
+  .main_div .right_part .middle_right {
+    padding-top: 15px;
+  }
+  .main_div .right_part .middle_right .custom_select select {
+    border: 0;
+  }
+  .main_div .right_part .middle_right .graph_image {
+    padding: 20px;
+    text-align: center;
+  }
+  .main_div .right_part .bottom_right {
+    padding-top: 15px;
+  }
+  .main_div .right_part .bottom_right .doctor_list {
+    display: -ms-flexbox !important;
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center !important;
+    flex-wrap: wrap !important;
+  }
+  .main_div .right_part .bottom_right .doctor_list .doctor_detail {
+    width: calc(50% - 7px);
+    padding: 10px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+  }
+  .main_div .right_part .bottom_right .doctor_list .doctor_detail:nth-child(2) {
+    margin-right: 0px;
+  }
+  .main_div .right_part .bottom_right .doctor_list .doctor_detail:nth-child(4) {
+    margin-right: 0px;
+  }
+  .main_div .right_part .bottom_right .doctor_list .doctor_detail .doctor_image {
+    margin-bottom: 15px;
+  }
+  .main_div .right_part .bottom_right .doctor_list .doctor_detail .doctor_name {
+    font-size: 14px;
+    font-weight: 700;
+    color: #455a64;
+  }
+}
+.appoinment_detail .calendar {
+  width: 530px;
+  margin-right: 30px;
+}
+.appoinment_detail .calendar .calendar_dayview {
+  width: calc(100% - 530px);
+}
+.appoinment_detail .calendar .fc-toolbar h2 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #455a64;
+}
+.appoinment_detail .calendar .fc-left {
+  display: -ms-flexbox !important;
+  display: flex !important;
+  align-items: center !important;
+}
+.appoinment_detail .calendar .fc-button-group .fc-prev-button {
+  border-radius: 12px 0px 0px 12px;
+  background-color: #ffffff;
+  border: 1px solid rgba(196, 196, 196, 0.5);
+  padding: 5px 8px;
+}
+.appoinment_detail .calendar .fc-button-group .fc-prev-button:hover {
+  background-color: #fafafa;
+}
+.appoinment_detail .calendar .fc-button-group .fc-next-button {
+  border-radius: 0px 12px 12px 0px;
+  background-color: #ffffff;
+  border: 1px solid rgba(196, 196, 196, 0.5);
+  padding: 5px 8px;
+}
+.appoinment_detail .calendar .fc-button-group .fc-next-button:hover {
+  background-color: #fafafa;
+}
+.appoinment_detail .calendar .fc-button-group .fc-icon {
+  color: #3ECD83;
+}
+.appoinment_detail .calendar .fc-today-button {
+  display: none;
+}
+.appoinment_detail .calendar .fc-license-message {
+  display: none;
+}
+.doctor_appo_detail {
+  display: -ms-flexbox !important;
+  display: flex !important;
+  justify-content: space-between !important;
+}
+.doctor_appo_detail .new_apponment {
+  margin-left: 20px;
+  padding: 20px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  width: 100%;
+  -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+  background-color: #ffffff;
+}
+.doctor_appo_detail .new_apponment table {
+  border: 0 !important;
+}
+.doctor_appo_detail .new_apponment thead tr th {
+  font-size: 14px;
+  color: #a1a1a1;
+  font-weight: 700;
+  border: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2) !important;
+}
+.doctor_appo_detail .new_apponment tbody tr td {
+  font-size: 15px;
+  color: #455a64;
+  background-color: #ffffff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2) !important;
+}
+.doctor_appo_detail .new_apponment tbody tr td.next_color {
+  color: #14afbd;
+}
+.doctor_appo_detail .new_apponment tbody tr td.sorting_1 {
+  background-color: #ffffff !important;
+}
+.doctor_appo_detail .new_apponment tbody tr td img {
+  margin-right: 20px;
+}
+.doctor_appo_detail .new_apponment .all_appoinment {
+  display: -ms-flexbox !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  padding-bottom: 10px;
+}
+.doctor_appo_detail .new_apponment .all_appoinment .left_heading {
+  font-weight: 700;
+  color: #455a64;
+}
+.doctor_appo_detail .new_apponment .all_appoinment .right_option {
+  display: -ms-flexbox !important;
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  position: relative;
+}
+.doctor_appo_detail .new_apponment .all_appoinment .right_option .search_bar img {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translate(-50%, -50%);
+}
+.doctor_appo_detail .new_apponment .all_appoinment .right_option .search_bar input {
+  padding: 8px 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid rgba(196, 196, 196, 0.5);
+}
+.doctor_appo_detail .new_apponment .all_appoinment .right_option .common_button {
+  margin-left: 10px;
+  padding: 10px 28px;
+  background-color: #778cfd;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+}
+.doctor_appo_detail .new_apponment .all_appoinment .right_option .common_button span {
+  color: #ffffff;
+  text-align: center;
+}
+@media only screen and (max-width: 767px) {
+  .doctor_appo_detail {
+    padding-left: 0px;
+  }
+  .doctor_appo_detail .new_apponment {
+    margin-left: 0px;
+    padding: 10px;
+  }
+  .doctor_appo_detail .new_apponment tbody tr td img {
+    margin-right: 20px;
+  }
+  .doctor_appo_detail .new_apponment .all_appoinment {
+    display: -ms-flexbox !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    flex-wrap: wrap !important;
+    padding-bottom: 10px;
+  }
+  .doctor_appo_detail .new_apponment .all_appoinment .left_heading {
+    font-weight: 700;
+    color: #455a64;
+  }
+  .doctor_appo_detail .new_apponment .all_appoinment .right_option {
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  .doctor_appo_detail .new_apponment .all_appoinment .right_option .search_bar img {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translate(-50%, -50%);
+  }
+  .doctor_appo_detail .new_apponment .all_appoinment .right_option .search_bar input {
+    padding: 8px 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid rgba(196, 196, 196, 0.5);
+  }
+  .doctor_appo_detail .new_apponment .all_appoinment .right_option .common_button {
+    margin-left: 10px;
+    padding: 10px 15px;
+    background-color: #778cfd;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+  }
+  .doctor_appo_detail .new_apponment .all_appoinment .right_option .common_button span {
+    color: #ffffff;
+    text-align: center;
+  }
+}
+.doctor_appo_detail.extra_padd {
+  padding-left: 260px;
+}
+.doctor_appo_detail .new_apponment tbody tr td img {
+  margin-right: 20px;
+  width: 20px;
+  height: auto;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+.doctor_appo_detail .new_apponment tbody tr td .edit_link {
+  color: #778cfd;
+  text-decoration: underline;
+  margin-right: 20px;
+}
+.doctor_appo_detail .new_apponment tbody tr td .cancle_link {
+  color: #E75755;
+  text-decoration: underline;
+}
+/*modal popup*/
+.modal .modal-dialog .modal-content .modal-header .img_random {
+  background-origin: content-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50px;
+  width: 50px;
+  margin-right: 15px;
+}
+.modal .modal-dialog .modal-content .modal-body .common_table {
+  border: 0 !important;
+}
+.modal .modal-dialog .modal-content .modal-body thead tr th {
+  font-size: 14px;
+  color: #a1a1a1;
+  font-weight: 700;
+  border: 0;
+  padding-top: 0px;
+  padding: 10px 10px;
+  border: 2px solid rgba(0, 0, 0, 0.2) !important;
+}
+.modal .modal-dialog .modal-content .modal-body tbody tr td {
+  font-size: 15px;
+  padding: 10px 10px;
+  padding-right: 15px;
+  color: #455a64;
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.2) !important;
+}
+.modal .modal-dialog .modal-content .modal-body tbody tr td.next_color {
+  color: #14afbd;
+}
+.modal .modal-dialog .modal-content .modal-body tbody tr td.sorting_1 {
+  background-color: #ffffff !important;
+}
+.modal .modal-dialog .modal-content .modal-body tbody tr td img {
+  margin-right: 20px;
+}
+.doctor_appo_detail {
+  padding-left: 520px;
+  flex-wrap: wrap !important;
+}
+.doctor_appo_detail .timing_part {
+  width: 100%;
+}
+.doctor_appo_detail .timing_part .time_heading {
+  font-weight: 700;
+  color: #455a64;
+}
+.doctor_appo_detail .timing_part .time_sub_heading {
+  padding-top: 10px;
+  font-size: 12px;
+  color: #a1a1a1;
+}
+.doctor_appo_detail .time_selection {
+  display: -ms-flexbox !important;
+  display: flex !important;
+  align-items: center !important;
+  padding-top: 20px;
+}
+.doctor_appo_detail .time_selection .custom_timing {
+  padding-right: 30px;
+}
+.doctor_appo_detail .time_selection .custom_timing .select_time {
+  padding: 5px 10px;
+  border: 1px solid #c4c4c4;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  color: #455a64;
+  font-size: 14px;
+  font-weight: 700;
+}
+.doctor_appo_detail .time_selection .add_more {
+  width: 24px;
+  height: auto;
+  border: 1px solid #a1a1a1;
+}
+.doctor_appo_detail .time_selection .add_more span {
+  width: 100%;
+  text-align: center;
+  color: #a1a1a1;
+}
+@media only screen and (max-width: 767px) {
+  .doctor_appo_detail {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .doctor_appo_detail .time_selection {
+    padding-top: 20px;
+  }
+  .doctor_appo_detail .time_selection .custom_timing {
+    padding-right: 20px;
+  }
+}
+.background_image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0px;
+  overflow-y: auto;
+}
+.background_image:before {
+  content: "";
+  position: absolute;
+  top: 50px;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(55, 209, 196, 0.5);
+  min-height: 100vh;
+}
+.background_image .login {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 450px;
+  margin: 80px 0px;
+}
+.background_image .login .login_details {
+  background-color: white;
+  width: 100%;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+  padding: 30px 50px;
+}
+.background_image .login .login_details .heading_text {
+  font-size: 24px;
+  font-weight: 700;
+  color: #778cfd;
+  text-align: center;
+}
+.background_image .login .login_details .sub_heading_text {
+  padding-top: 10px;
+  padding-bottom: 35px;
+  font-size: 14px;
+  color: #263238;
+  text-align: center;
+}
+.background_image .login .login_details .custom_input_main .custom_input_box {
+  margin-bottom: 10px;
+}
+.background_image .login .login_details .custom_input_main .custom_input_box .input_box {
+  border: 1px solid #C4C4C4;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  padding: 16px 20px;
+}
+.background_image .login .login_details .custom_input_main .custom_input_box .input_box .input_icon {
+  margin-right: 22px;
+}
+.background_image .login .login_details .custom_input_main .custom_input_box .input_box .input_icon img {
+  width: 18px;
+  height: 18px;
+}
+.background_image .login .login_details .custom_input_main .custom_input_box .input_box input {
+  border: 0;
+  caret-color: #778cfd;
+}
+.background_image .login .login_details .device_remember {
+  display: -ms-flexbox !important;
+  display: flex !important;
+  align-items: center !important;
+  padding-top: 5px;
+  margin-left: 20px;
+}
+.background_image .login .login_details .device_remember .square_box {
+  height: 20px;
+  width: 20px;
+  background-color: #DDEAFB;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  border-radius: 2px;
+}
+.background_image .login .login_details .device_remember .sub_text {
+  margin-left: 25px;
+  color: #455a64;
+}
+.background_image .login .login_details .common_button {
+  padding: 15px 150px;
+  background-color: #778cfd;
+  margin-top: 25px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+}
+.background_image .login .login_details .common_button.forgot_btn {
+  padding: 15px 112px;
+  margin-top: 10px;
+}
+.background_image .login .login_details .common_button.verify_btn {
+  padding: 15px 138px;
+  margin-top: 10px;
+}
+.background_image .login .login_details .common_button span {
+  color: #ffffff;
+  text-align: center;
+}
+.background_image .login .login_details .forgot_pass {
+  width: 100%;
+  padding-top: 30px;
+  text-align: center;
+  color: #455a64;
+}
+.background_image .login .common_bottom {
+  padding-top: 50px;
+  text-align: center;
+}
+.background_image .login .common_bottom span {
+  font-weight: 700;
+  color: #ffffff;
+}
+.background_image .login .common_bottom .common_part {
+  padding-top: 10px;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+.background_image .login .common_bottom .common_part img {
+  margin-right: 10px;
+}
+.background_image .login .common_bottom .common_part span {
+  font-size: 16px;
+  font-weight: 700;
+  color: #455a64;
+}
+@media only screen and (max-width: 767px) {
+  .background_image {
+    position: relative;
+  }
+  .background_image:before {
+    background-color: rgba(55, 209, 196, 0.2);
+  }
+  .background_image .login {
+    width: 300px;
+    margin-top: 70px;
+  }
+  .background_image .login .login_details {
+    padding: 30px 30px;
+  }
+  .background_image .login .login_details .heading_text {
+    font-size: 18px;
+  }
+  .background_image .login .login_details .sub_heading_text {
+    padding-bottom: 20px;
+    font-size: 14px;
+  }
+  .background_image .login .login_details .custom_input_main .custom_input_box {
+    margin-bottom: 10px;
+  }
+  .background_image .login .login_details .custom_input_main .custom_input_box .input_box {
+    padding: 12px 15px;
+  }
+  .background_image .login .login_details .custom_input_main .custom_input_box .input_box .input_icon {
+    margin-right: 14px;
+  }
+  .background_image .login .login_details .custom_input_main .custom_input_box .input_box .input_icon img {
+    width: 18px;
+    height: auto;
+  }
+  .background_image .login .login_details .custom_input_main .custom_input_box .input_box input {
+    border: 0;
+    caret-color: #778cfd;
+  }
+  .background_image .login .login_details .device_remember {
+    margin-left: 0px;
+  }
+  .background_image .login .login_details .device_remember .square_box {
+    height: 15px;
+    width: 15px;
+  }
+  .background_image .login .login_details .common_button {
+    padding: 15px 100px;
+  }
+  .background_image .login .login_details .common_button.forgot_btn {
+    padding: 15px 57px;
+  }
+  .background_image .login .login_details .common_button.verify_btn {
+    padding: 15px 83px;
+  }
+  .background_image .login .login_details .forgot_pass {
+    padding-top: 15px;
+  }
+  .background_image .login .common_bottom {
+    padding-top: 30px;
+  }
+  .background_image .login .common_bottom span {
+    font-size: 13px;
+  }
+}
+.appoinment_part {
+  background-color: #FAFAFA;
+  padding-top: 50px;
+}
+.appoinment_part .new_appoinment {
+  padding: 30px 20px;
+  max-width: 800px;
+  margin: auto;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.02);
+  -moz-box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.02);
+  box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.02);
+}
+.appoinment_part .new_appoinment .main_heading_text {
+  border-bottom: 1px solid #c4c4c4;
+  padding-bottom: 10px;
+}
+.appoinment_part .new_appoinment .main_heading_text .common_text_title {
+  font-size: 20px;
+  color: #778cfd;
+}
+.appoinment_part .new_appoinment .main_heading_text .sub_common_text {
+  font-size: 12px;
+  color: #263238;
+}
+.appoinment_part .new_appoinment .common_text {
+  padding-top: 15px;
+}
+.appoinment_part .new_appoinment .common_text .common_text_form {
+  font-size: 18px;
+  color: #778cfd;
+  font-weight: 700;
+}
+.appoinment_part .new_appoinment .appoinment_form {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #c4c4c4;
+}
+.appoinment_part .new_appoinment .appoinment_form:last-child {
+  border-bottom: transparent;
+}
+.appoinment_part .new_appoinment .appoinment_form .custom_input_main {
+  display: -ms-flexbox !important;
+  display: flex !important;
+  flex-wrap: wrap !important;
+  width: 100%;
+}
+.appoinment_part .new_appoinment .appoinment_form .custom_input_main .custom_input_box {
+  width: calc(50% - 20px);
+  margin-right: 20px;
+  padding-bottom: 10px;
+  margin-bottom: 0px;
+  position: relative;
+}
+.appoinment_part .new_appoinment .appoinment_form .custom_input_main .custom_input_box:nth-child(2n+2) {
+  margin-right: 0px;
+}
+.appoinment_part .new_appoinment .appoinment_form .custom_input_main .custom_input_box .input_label {
+  font-size: 14px;
+  font-weight: 700;
+  color: #a1a1a1;
+}
+.appoinment_part .new_appoinment .appoinment_form .custom_input_main .custom_input_box .option_menu {
+  display: -ms-flexbox !important;
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: space-between !important;
+}
+.appoinment_part .new_appoinment .appoinment_form .custom_input_main .custom_input_box .input_box {
+  font-size: 14px;
+  color: #C4C4C4;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+}
+.appoinment_part .new_appoinment .appoinment_form .custom_input_main .custom_input_box .input_box.select_option {
+  width: calc(50% - 10px);
+  margin-right: 10px;
+  padding: 10px 10px;
+}
+.appoinment_part .new_appoinment .appoinment_form .custom_input_main .custom_input_box .input_box.select_option:last-child {
+  margin-right: 0px;
+}
+.appoinment_part .new_appoinment .appoinment_form .custom_input_main .custom_input_box .input_box.select_option label {
+  margin-bottom: 0;
+}
+.appoinment_part .new_appoinment .appoinment_form .custom_input_main .custom_input_box .input_box input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 0;
+}
+.appoinment_part .new_appoinment .appoinment_form .custom_input_main .custom_input_box .input_box input[type="radio"]:checked ~ .radio_main .gender_select {
+  color: #778cfd;
+  font-size: 14px;
+}
+.appoinment_part .new_appoinment .appoinment_form .custom_input_main .custom_input_box .input_box input[type="radio"]:not(:checked) ~ .radio_main .gender_select {
+  color: #455a64;
+  font-size: 14px;
+}
+.appoinment_part .new_appoinment .appoinment_form .custom_input_main .custom_input_box .input_box .radio_main {
+  display: -ms-flexbox !important;
+  display: flex !important;
+  align-items: center !important;
+}
+.appoinment_part .new_appoinment .appoinment_form .custom_input_main .custom_input_box .input_box input,
+.appoinment_part .new_appoinment .appoinment_form .custom_input_main .custom_input_box .input_box textarea {
+  background-color: transparent;
+  width: 100%;
+}
+.appoinment_part .new_appoinment .doctor_detail {
+  padding-top: 20px;
+}
+.appoinment_part .new_appoinment .doctor_detail.appoinment_form {
+  border-bottom: 0;
+}
+.appoinment_part .new_appoinment .doctor_detail .custom_input_main .w_full {
+  width: 100%;
+}
+.appoinment_part .new_appoinment .doctor_detail .custom_input_main .w_full.space_remove {
+  margin-right: 0px;
+}
+.appoinment_part .new_appoinment .doctor_detail .custom_input_main .w_full .input_box select {
+  font-size: 14px;
+  color: #455a64;
+  width: 100%;
+  border: 0;
+  background-color: transparent;
+}
+.appoinment_part .new_appoinment .doctor_detail .custom_input_main .w_full textarea {
+  border: 0;
+}
+.appoinment_part .new_appoinment .btn_book {
+  width: 100%;
+  text-align: center;
+}
+.appoinment_part .new_appoinment .btn_book .common_button {
+  padding: 15px 100px;
+  background-color: #778cfd;
+  margin-top: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  border-radius: 25px;
+}
+.appoinment_part .new_appoinment .btn_book .common_button span {
+  color: #ffffff;
+  text-align: center;
+}
+@media only screen and (max-width: 767px) {
+  .appoinment_part .new_appoinment {
+    max-width: 800px;
+  }
+  .appoinment_part .new_appoinment .common_text .common_text_form {
+    font-size: 18px;
+  }
+  .appoinment_part .new_appoinment .appoinment_form {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .appoinment_part .new_appoinment .appoinment_form .custom_input_main {
+    width: 100%;
+  }
+  .appoinment_part .new_appoinment .appoinment_form .custom_input_main .custom_input_box {
+    margin-right: 0px;
+    margin-bottom: 0px;
+  }
+  .appoinment_part .new_appoinment .btn_book .common_button {
+    padding: 15px 96px;
+    margin-top: 15px;
+  }
+}
+.appoinment_part .new_appoinment .appoinment_form .custom_input_main .custom_input_box:nth-child(2n+2) {
+  margin-right: 0px;
+}
+.appoinment_part .new_appoinment .appoinment_form .custom_input_main .custom_input_box.w_full {
+  width: 100%;
+}
+.appoinment_part .new_appoinment .appoinment_form .custom_input_main .custom_input_box .extra_text {
+  font-size: 14px;
+  color: #C4C4C4;
+  display: block;
+  margin-bottom: 10px;
+}
+.appoinment_part .new_appoinment .appoinment_form .custom_input_main .custom_input_box .option_menu.timer_select .input_box,
+.appoinment_part .new_appoinment .appoinment_form .custom_input_main .custom_input_box .option_menu.week_select .input_box {
+  width: calc(18% - 20px);
+  justify-content: center;
+  padding: 5px;
+}
+.appoinment_part .new_appoinment .appoinment_form .custom_input_main .custom_input_box .option_menu.timer_select .input_box label,
+.appoinment_part .new_appoinment .appoinment_form .custom_input_main .custom_input_box .option_menu.week_select .input_box label {
+  margin-bottom: 0;
+}
+.appoinment_part .new_appoinment .appoinment_form .custom_input_main .custom_input_box .option_menu.week_select .input_box {
+  width: calc(15% - 20px);
+  position: relative;
+}
+.appoinment_part .new_appoinment .appoinment_form .custom_input_main .custom_input_box .option_menu.week_select .input_box input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+.appoinment_part .new_appoinment .appoinment_form .custom_input_main .custom_input_box .option_menu.week_select .input_box input[type="checkbox"]:checked ~ .radio_main .gender_select {
+  color: #778cfd;
+  font-size: 14px;
+}
+.appoinment_part .new_appoinment .appoinment_form .custom_input_main .custom_input_box .option_menu.week_select .input_box input[type="checkbox"]:not(:checked) ~ .radio_main .gender_select {
+  color: #455a64;
+  font-size: 14px;
+}
+.appoinment_part .new_appoinment .appoinment_form .custom_input_main .custom_input_box .option_menu.week_select .input_box .radio_main {
+  display: -ms-flexbox !important;
+  display: flex !important;
+  align-items: center !important;
+}
+.appoinment_part .new_appoinment .appoinment_form .custom_input_main .custom_input_box .input_box.select_option:last-child {
+  margin-right: 0px;
+}
+.appoinment_part .new_appoinment .appoinment_form .custom_input_main .custom_input_box .input_box.time_input_box {
+  width: calc(40% - 20px);
+}
+.appoinment_part .new_appoinment .appoinment_form .custom_input_main .custom_input_box .input_box.remove_space {
+  padding: 10px 20px;
+}
+.appoinment_part .new_appoinment .appoinment_form .custom_input_main .custom_input_box .add_more {
+  width: 24px;
+  height: auto;
+  border: 1px solid #a1a1a1;
+  margin-right: 20px;
+}
+.appoinment_part .new_appoinment .appoinment_form .custom_input_main .custom_input_box .add_more span {
+  width: 100%;
+  text-align: center;
+  color: #a1a1a1;
+}
+@media only screen and (max-width: 767px) {
+  .appoinment_part .new_appoinment {
+    max-width: 800px;
+  }
+  .appoinment_part .new_appoinment .appoinment_form .custom_input_main {
+    padding-bottom: 15px;
+  }
+  .appoinment_part .new_appoinment .appoinment_form .custom_input_main .custom_input_box {
+    width: 100%;
+    margin-right: 0px;
+    position: relative;
+  }
+  .appoinment_part .new_appoinment .appoinment_form .custom_input_main .custom_input_box.w_full {
+    width: 100%;
+  }
+  .appoinment_part .new_appoinment .appoinment_form .custom_input_main .custom_input_box.doctor_appo_detail {
+    padding-left: 0px;
+    padding-top: 10px;
+  }
+  .appoinment_part .new_appoinment .appoinment_form .custom_input_main .custom_input_box.doctor_appo_detail .timing_part .time_sub_heading {
+    padding-top: 0px;
+  }
+  .appoinment_part .new_appoinment .appoinment_form .custom_input_main .custom_input_box.doctor_appo_detail .time_selection {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .appoinment_part .new_appoinment .appoinment_form .custom_input_main .custom_input_box.doctor_appo_detail .time_selection .custom_timing .select_time {
+    font-weight: 400;
+  }
+  .appoinment_part .new_appoinment .appoinment_form .custom_input_main .custom_input_box .input_label {
+    font-size: 14px;
+    font-weight: 700;
+    color: #a1a1a1;
+  }
+  .appoinment_part .new_appoinment .appoinment_form .custom_input_main .custom_input_box .option_menu.timer_select .input_box,
+  .appoinment_part .new_appoinment .appoinment_form .custom_input_main .custom_input_box .option_menu.week_select .input_box {
+    width: calc(36% - 20px);
+    justify-content: center !important;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  .appoinment_part .new_appoinment .appoinment_form .custom_input_main .custom_input_box .option_menu.timer_select .input_box label,
+  .appoinment_part .new_appoinment .appoinment_form .custom_input_main .custom_input_box .option_menu.week_select .input_box label {
+    margin-bottom: 0;
+  }
+  .appoinment_part .new_appoinment .appoinment_form .custom_input_main .custom_input_box .input_box.select_option {
+    width: calc(50% - 10px);
+    margin-right: 10px;
+    padding: 10px;
+  }
+  .appoinment_part .new_appoinment .appoinment_form .custom_input_main .custom_input_box .input_box.select_option:last-child {
+    margin-right: 0px;
+  }
+  .appoinment_part .new_appoinment .appoinment_form .custom_input_main .custom_input_box .input_box.remove_space {
+    padding: 10px 20px;
+  }
+}
+.appoinment_part .new_appoinment .confirm_img {
+  text-align: center;
+  padding-bottom: 25px;
+}
+.appoinment_part .new_appoinment .sub_text__msg {
+  font-size: 14px;
+  color: #263238;
+  padding-top: 20px;
+}
+.appoinment_part .new_appoinment .date_time {
+  display: -ms-flexbox !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.appoinment_part .new_appoinment .date_time .date {
+  padding: 20px;
+  color: #14afbd;
+  position: relative;
+}
+.appoinment_part .new_appoinment .date_time .date:last-child:before {
+  display: none;
+}
+.appoinment_part .new_appoinment .date_time .date:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  background-color: #c4c4c4;
+  height: 50px;
+  width: 1px;
+}
+.appoinment_part .new_appoinment .date_time .date span {
+  display: block;
+}
+.appoinment_part .new_appoinment .attend_by {
+  padding: 10px 0px;
+  padding-bottom: 30px;
+  border-bottom: dashed 1px #c4c4c4;
+}
+@media only screen and (max-width: 767px) {
+  .appoinment_part .new_appoinment .attend_by .sub_text__msg {
+    padding-top: 0px;
+  }
+}
+.appoinment_part .new_appoinment .title_text_name {
+  font-size: 18px;
+  color: #263238;
+}
+.appoinment_part .new_appoinment .bottom_part {
+  padding: 25px 0px;
+}
+.appoinment_part .new_appoinment .bottom_part .contact_number {
+  padding-top: 10px;
+  color: #263238;
+  font-size: 14px;
+}
+.appoinment_part .new_appoinment .bottom_part .contact_number img {
+  margin-right: 15px;
+}
